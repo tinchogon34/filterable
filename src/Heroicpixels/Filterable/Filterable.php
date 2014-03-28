@@ -4,7 +4,7 @@
  *
  *	@license http://opensource.org/licenses/MIT MIT
  */
-use Config, DB, Eloquent;
+use Config, DB, Eloquent, \Way\Database\Model;
 
 /**
  *	A trait for dynamically filtering Eloquent models based on query string paremeters.
