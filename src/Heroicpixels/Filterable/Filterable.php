@@ -4,14 +4,14 @@
  *
  *	@license http://opensource.org/licenses/MIT MIT
  */
-use Config, DB, Eloquent, Way\Database\Model;
+use Config, DB, Eloquent;
 
 /**
  *	A trait for dynamically filtering Eloquent models based on query string paremeters.
  *
  *	@package Filterable
  */
-abstract class Filterable extends Way\Database\Model{
+abstract class Filterable extends \Way\Database\Model{
 	/**
 	 *	Data structures and default values
 	 *
