@@ -11,7 +11,7 @@ use Config, DB, Eloquent;
  *
  *	@package Filterable
  */
-abstract class Filterable extends Eloquent {
+abstract class Filterable extends Way\Database\Model{
 	/**
 	 *	Data structures and default values
 	 *

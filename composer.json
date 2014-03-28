@@ -1,5 +1,5 @@
 {
-    "name": "heroicpixels/filterable",
+    "name": "mdsys/filterable",
     "type": "library",
     "description": "Laravel package for dynamically filtering Eloquent results using URL query string.",
     "license": "MIT",
