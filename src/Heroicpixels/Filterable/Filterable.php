@@ -4,14 +4,14 @@
  *
  *	@license http://opensource.org/licenses/MIT MIT
  */
-use Config, DB, Eloquent, \Mdsys\BaseModel;
+use Config, DB, Eloquent, BaseModel;
 
 /**
  *	A trait for dynamically filtering Eloquent models based on query string paremeters.
  *
  *	@package Filterable
  */
-abstract class Filterable extends \Mdsys\BaseModel{
+abstract class Filterable extends BaseModel{
 	/**
 	 *	Data structures and default values
 	 *
