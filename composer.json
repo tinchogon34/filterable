@@ -12,7 +12,8 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": ">=4.0.9"
+        "illuminate/support": ">=4.0.9",
+	"way/database": "dev-master"
     },
     "autoload": {
         "psr-0": {
